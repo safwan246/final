@@ -58,7 +58,7 @@ function AddCategory() {
     
   
     const CategoryCard = ({ id, name, image }) => {
-        const imageUrl = `http://localhost:3033/uploads/${image}`;
+        const imageUrl = `http://51.21.221.33/api/uploads/${image}`;
 
     
 

@@ -74,7 +74,7 @@ const Usercategory = () => {
            transition-transform duration-300 hover:scale-105 p-6 flex flex-col items-center text-center cursor-pointer" // Added cursor-pointe
                             >
                                 <img
-                                    src={`http://localhost:3033/uploads/${p.image}`}
+                                    src={`http://51.21.221.33/api/uploads/${p.image}`}
                                     alt={p.name}
                                     className="w-48 h-48 object-cover rounded-xl mb-4 border border-gray-100" 
                                 />

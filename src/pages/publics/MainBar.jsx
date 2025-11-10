@@ -167,7 +167,7 @@ function MainBar() {
                         <div className='w-full'>
                             {pro.image ? (
                                 <img
-                                    src={`http://localhost:3033/uploads/${pro.image}`}
+                                    src={`http://51.21.221.33/api/uploads/${pro.image}`}
                                     alt={pro.name}
                                     className="w-full h-48 object-cover rounded-t-xl"
                                 />
@@ -303,7 +303,7 @@ function MainBar() {
                             <div className='w-full'>
                                 {cat.image ? (
                                     <img
-                                        src={`http://localhost:3033/uploads/${cat.image}`}
+                                        src={`http://51.21.221.33/api/uploads/${cat.image}`}
                                         alt={cat.name}
                                         className="w-full h-72 md:h-96 object-cover rounded-2xl transform transition duration-300 hover:scale-[1.03]"
                                     />

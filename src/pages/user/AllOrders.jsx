@@ -79,7 +79,7 @@ const AllOrders = () => {
                   {order.items.map((item) => (
                     <img
                       key={item._id}
-                      src={`http://localhost:3033/uploads/${item.productId?.image}`}
+                      src={`http://51.21.221.33/api/uploads/${item.productId?.image}`}
                       alt={item.productId?.name}
                       
                       className="w-16 h-16 object-cover rounded-xl border border-green-300"

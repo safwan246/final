@@ -115,7 +115,7 @@ const ProductManage = () => {
                                     <td className="p-2 border text-center">
                                         {prod.image ? (
                                             <img
-                                                src={`http://localhost:3033/uploads/${prod.image}`}
+                                                src={`http://51.21.221.33/api/uploads/${prod.image}`}
 
                                                 className="w-16 h-16 object-cover rounded"
                                             />

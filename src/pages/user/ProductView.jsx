@@ -87,7 +87,7 @@ const ProductDetails = () => {
         <div className="bg-white rounded-2xl shadow-md grid grid-cols-1 md:grid-cols-2 gap-10 p-8">
           <div className="flex flex-col gap-4 items-center">
             <img
-              src={`http://localhost:3033/uploads/${product.image}`}
+              src={`http://51.21.221.33/api/uploads/${product.image}`}
               alt={product.name}
               className="w-full max-w-md h-[400px] object-cover rounded-xl border border-gray-200"
             />
@@ -157,7 +157,7 @@ const ProductDetails = () => {
                   >
                     
                     <img
-                      src={`http://localhost:3033/uploads/${p.image}`}
+                      src={`http://51.21.221.33/api/uploads/${p.image}`}
                       alt={ p.name}
                       className="w-40 h-40 object-cover rounded-lg mb-3"
                     />
